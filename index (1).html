@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUMI Salon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="site-wrapper">
+        
+        <header class="header">
+            <div class="header-container">
+                
+                <a href="#" class="logo">LUMI</a>
+
+                <nav class="desktop-nav">
+                    <ul class="nav-links">
+                        <li><a href="#services" class="active">ПОСЛУГИ</a></li>
+                        <li><a href="#salon">САЛОН</a></li>
+                        <li><a href="#about">ПРО НАС</a></li>
+                        <li><a href="#contacts">КОНТАКТИ</a></li>
+                    </ul>
+                </nav>
+
+                <div class="header-actions">
+                    <a href="#" class="btn btn-white">МАГАЗИН</a>
+                    <div class="contact-dropdown">
+                        <button class="dropdown-toggle" type="button">
+                            ЗВ'ЯЗАТИСЯ <span class="arrow">く</span>
+                        </button>
+
+                        <div class="dropdown-menu">
+                            <a href="#booking" class="dropdown-phone">(098) 022 0707</a>
+                        </div>
+                    </div>
+                    <a href="#booking" class="btn btn-filled">ЗАПИСАТИСЯ</a>
+                </div>
+
+                <div class="mobile-nav-toggle" id="burgerBtn">
+                    <div class="burger-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <span class="menu-text">МЕНЮ</span>
+                </div>
+
+            </div>
+
+            <div class="mobile-menu" id="mobileMenu">
+                <ul class="mobile-nav-links">
+                    <li><a href="#services">ПОСЛУГИ</a></li>
+                    <li><a href="#salon">САЛОН</a></li>
+                    <li><a href="#about">ПРО НАС</a></li>
+                    <li><a href="#contacts">КОНТАКТИ</a></li>
+                </ul>
+                <div class="mobile-actions">
+                    <a href="#" class="btn btn-white">МАГАЗИН</a>
+                        <div class="contact-dropdown mobile-contact-dropdown">
+                            <button class="dropdown-toggle" type="button">
+                                ЗВ'ЯЗАТИСЯ <span class="arrow">く</span>
+                            </button>
+
+                            <div class="dropdown-menu">
+                                <a href="#booking" class="dropdown-phone">(098) 022 0707</a>
+                            </div>
+                        </div>
+                    <a href="#booking" class="btn btn-filled hero-btn">ЗАПИСАТИСЯ</a>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero">
+                <div class="hero-container">
+                    
+                    <div class="hero-content">
+                        <h1 class="hero-title">Салон краси LUMI</h1>
+                        <h2 class="hero-subtitle">LUMI BEAUTY STUDIO</h2>
+                        <p class="hero-address">м. Львів, вул. Чорновола, 2а</p>
+                        <a href="#" class="btn btn-filled hero-btn">ЗАПИСАТИСЯ</a>
+                    </div>
+
+                    <div class="hero-image-wrapper">
+                        <img src="assets/hero-face.png" alt="Макіяж очей LUMI" class="hero-image">
+                    </div>
+
+                    <div class="hero-decorative-text">
+                        <span class="text-small">світло твоєї</span>
+                        <span class="text-large">КРАСИ</span>
+                    </div>
+
+                </div>
+            </section>
+            <section class="space-section" id="salon">
+                <div class="space-container">
+                    
+                    <div class="space-column space-left">
+                        <h3 class="space-title">ПРОСТІР КРАСИ</h3>
+                        <img src="assets/interior-1.png" alt="Інтер'єр салону" class="space-image">
+                    </div>
+
+                    <a href="#" class="online-booking-circle">
+                        Онлайн<br>запис
+                    </a>
+
+                    <div class="space-column space-right">
+                        <img src="assets/interior-2.png" alt="Зона для клієнтів" class="space-image">
+                        <h3 class="space-title">ЧАС ДЛЯ СЕБЕ</h3>
+                    </div>
+
+                </div>
+            </section>
+            <section class="about-section" id="about">
+
+                <div class="about-container">
+                    
+                    <h2 class="about-title">ПРО НАС</h2>
+                    
+                    <div class="about-content">
+                        <div class="about-text">
+                            <p>У LUMI Beauty Studio краса — це не просто зовнішність, це спосіб самовираження та відчуття власної унікальності. Кожна деталь тут створена, щоб надихати: від сучасних технік макіяжу до дбайливого підбору косметики найвищої якості.</p>
+                            <p>Ми віримо, що справжня краса народжується там, де поєднуються професіоналізм, натхнення та індивідуальний підхід до кожного. У LUMI кожен образ розкриває вашу неповторність і дарує впевненість, яку відчувають усі навколо.</p>
+                            <p>Наш салон — це простір, де краса стає мистецтвом, а турбота про вас перетворює звичайний візит на маленьке свято стилю та гармонії.</p>
+                        </div>
+
+                        <div class="about-image-wrapper">
+                            <img src="assets/about-interior.png" alt="Інтер'єр салону" class="about-image">
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        <section class="principle-banner">
+            <div class="principle-container">
+
+                <video autoplay muted loop playsinline class="bg-video">
+                    <source src="assets/0_Hair_Salon_Haircut_3840x2160.mp4" type="video/mp4">
+                </video>
+
+                <a href="#" class="principle-btn">Зазирнути в LUMI</a>
+                
+                <p class="principle-text">
+                    Основний принцип роботи салону LUMI — це гармонійне поєднання професійної майстерності, сучасних технік краси та уваги до унікальних потреб кожного клієнта.
+                </p>
+                
+            </div>
+        </section>
+        <section class="team-section">
+            <div class="team-container">
+                
+                <h2 class="team-title">НАША КОМАНДА</h2>
+                
+                <div class="team-grid">
+                    
+                    <div class="team-card">
+                        <img src="assets/team-1.png" alt="Аліна" class="team-photo">
+                        <h3 class="team-name">Аліна</h3>
+                        <p class="team-role">Власниця салону,<br>стиліст-колорист</p>
+                    </div>
+
+                    <div class="team-card">
+                        <img src="assets/team-2.png" alt="Яна" class="team-photo">
+                        <h3 class="team-name">Яна</h3>
+                        <p class="team-role">Майстер манікюру</p>
+                    </div>
+
+                    <div class="team-card">
+                        <img src="assets/team-3.png" alt="Анна" class="team-photo">
+                        <h3 class="team-name">Анна</h3>
+                        <p class="team-role">Візажист, бровист</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <section class="services-section" id="services">
+            <div class="services-container">
+                
+                <h2 class="services-title">ПОСЛУГИ</h2>
+                
+                <div class="services-grid">
+                    
+                    <a href="#" class="service-card">
+                        <img src="assets/service-haircolor.png" alt="Фарбування, стрижки" class="service-image">
+                        <div class="service-overlay">
+                            <span class="service-name">Фарбування,<br>стрижки</span>
+                            <span class="service-arrow">
+                                <svg width="30" height="15" viewBox="0 0 24 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M18.5 1L23.5 6M23.5 6L18.5 11M23.5 6H0" stroke="white" stroke-width="1.5"/>
+                                </svg>
+                            </span>
+                        </div>
+                    </a>
+
+                    <a href="#" class="service-card">
+                        <img src="assets/service-hairstyle.png" alt="Догляд за волоссям" class="service-image">
+                        <div class="service-overlay">
+                            <span class="service-name">Догляд за<br>волоссям</span>
+                            <span class="service-arrow">
+                                <svg width="30" height="15" viewBox="0 0 24 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M18.5 1L23.5 6M23.5 6L18.5 11M23.5 6H0" stroke="white" stroke-width="1.5"/>
+                                </svg>
+                            </span>
+                        </div>
+                    </a>
+
+                    <a href="#" class="service-card">
+                        <img src="assets/service-manicure.png" alt="Манікюр" class="service-image">
+                        <div class="service-overlay">
+                            <span class="service-name">Манікюр</span>
+                            <span class="service-arrow">
+                                <svg width="30" height="15" viewBox="0 0 24 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M18.5 1L23.5 6M23.5 6L18.5 11M23.5 6H0" stroke="white" stroke-width="1.5"/>
+                                </svg>
+                            </span>
+                        </div>
+                    </a>
+
+                    <a href="#" class="service-card">
+                        <img src="assets/service-makeup.png" alt="Візаж, брови" class="service-image">
+                        <div class="service-overlay">
+                            <span class="service-name">Візаж, брови</span>
+                            <span class="service-arrow">
+                                <svg width="30" height="15" viewBox="0 0 24 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M18.5 1L23.5 6M23.5 6L18.5 11M23.5 6H0" stroke="white" stroke-width="1.5"/>
+                                </svg>
+                            </span>
+                        </div>
+                    </a>
+
+                </div>
+
+            </div>
+        </section>
+        <section class="pricing-section" id="pricing">
+            <div class="pricing-container">
+                <h2 class="pricing-title">ПРАЙС-ЛИСТ</h2>
+                
+                <div class="pricing-grid">
+                    <div class="pricing-card">
+                        <h3 class="pricing-name">Фарбування та стрижки</h3>
+                        <div class="pricing-price">від 800 грн</div>
+                        <ul class="pricing-list">
+                            <li><span>Жіноча стрижка</span> <span>від 800 грн</span></li>
+                            <li><span>Укладка волосся</span> <span>від 500 грн</span></li>
+                            <li><span>Фарбування в 1 тон</span> <span>від 1800 грн</span></li>
+                            <li><span>Складне фарбування</span> <span>від 3500 грн</span></li>
+                        </ul>
+                        <a href="#booking" class="btn btn-filled pricing-btn">Записатися</a>
+                    </div>
+
+                    <div class="pricing-card">
+                        <h3 class="pricing-name">Догляд за волоссям</h3>
+                        <div class="pricing-price">від 600 грн</div>
+                        <ul class="pricing-list">
+                            <li><span>SPA-ритуал</span> <span>1500 грн</span></li>
+                            <li><span>Кератин</span> <span>від 2500 грн</span></li>
+                            <li><span>Ботокс</span> <span>від 2000 грн</span></li>
+                            <li><span>Пілінг шкіри голови</span> <span>600 грн</span></li>
+                        </ul>
+                        <a href="#booking" class="btn btn-filled pricing-btn">Записатися</a>
+                    </div>
+
+                    <div class="pricing-card">
+                        <h3 class="pricing-name">Манікюр</h3>
+                        <div class="pricing-price">від 400 грн</div>
+                        <ul class="pricing-list">
+                            <li><span>Класичний манікюр</span> <span>600 грн</span></li>
+                            <li><span>Манікюр + Гель-лак</span> <span>1000 грн</span></li>
+                            <li><span>Укріплення гелем</span> <span>+300 грн</span></li>
+                            <li><span>SPA-догляд для рук</span> <span>400 грн</span></li>
+                        </ul>
+                        <a href="#booking" class="btn btn-filled pricing-btn">Записатися</a>
+                    </div>
+
+                    <div class="pricing-card">
+                        <h3 class="pricing-name">Візаж та брови</h3>
+                        <div class="pricing-price">від 650 грн</div>
+                        <ul class="pricing-list">
+                            <li><span>Корекція та фарбування</span> <span>650 грн</span></li>
+                            <li><span>Ламінування брів</span> <span>1100 грн</span></li>
+                            <li><span>Денний макіяж</span> <span>1200 грн</span></li>
+                            <li><span>Вечірній макіяж</span> <span>1800 грн</span></li>
+                        </ul>
+                        <a href="#booking" class="btn btn-filled pricing-btn">Записатися</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contacts-section" id="booking">
+            <div class="contacts-container">
+                
+                <h2 class="contacts-title">КОНТАКТИ</h2>
+                
+                <div class="contacts-content">
+                    
+                    <div class="contacts-map-wrapper">
+                        <iframe 
+                            src="https://maps.google.com/maps?q=Львів,%20вул.%20Чорновола,%202а&t=k&z=16&ie=UTF8&iwloc=&output=embed" 
+                            width="100%" 
+                            height="100%" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+
+                    <div class="contacts-form-wrapper">
+                        <h3 class="form-title">Записатись онлайн</h3>
+                        
+                        <form action="#" class="booking-form">
+                            <input type="text" class="form-input" placeholder="Як вас звати?" required>
+                            <input type="tel" class="form-input" placeholder="Ваш номер телефону" required>
+                            <input type="text" class="form-input" placeholder="Яка послуга вас цікавить?" required>
+                            
+                            <button type="submit" class="btn btn-filled form-btn">Записатись</button>
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <footer class="footer" id="contacts">
+            <div class="footer-container">
+                
+                <div class="footer-logo">LUMI</div>
+
+                <div class="footer-column">
+                    <span class="footer-accent">LUMI BEAUTY STUDIO</span>
+                    <span class="footer-text">м. Львів, вул. Чорновола, 2а</span>
+                    <span class="footer-accent">(098) 022 0707</span>
+                </div>
+
+                <div class="footer-column">
+                    <span class="footer-accent">Графік роботи:</span>
+                    <span class="footer-text">Пн-Пт: 10:00 - 20:00</span>
+                    <span class="footer-text">Сб-Нд: 10:00 - 17:00</span>
+                </div>
+
+               <div class="footer-socials">
+    <a href="#" class="social-icon">
+        <img src="assets/inst.svg" alt="Instagram">
+    </a>
+
+    <a href="#" class="social-icon">
+        <img src="assets/fb.svg" alt="Facebook">
+    </a>
+
+    <a href="#" class="social-icon">
+        <img src="assets/tg.svg" alt="Telegram">
+    </a>
+</div>
+
+            </div>
+        </footer>
+        </main>
+
+    </div>
+
+    <script>
+        const burgerBtn = document.getElementById('burgerBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+
+        burgerBtn.addEventListener('click', () => {
+            // Перемикаємо клас 'is-open' при кліку
+            mobileMenu.classList.toggle('is-open');
+            window.addEventListener('resize', () => {
+        if (window.innerWidth > 850) {
+            // Якщо екран став великим — прибираємо клас відкритого меню
+            document.getElementById('mobileMenu').classList.remove('is-open');
+            }
+        });
+        });
+        
+    </script>
+    
+</body>
+</html>
